@@ -1,11 +1,11 @@
 # add-name-and-date
+
 Run-and-go Figma plugin that adds your name and date immediately to selected text layers, frames, groups, or even sections.
 
 ## Development guide
 
 This plugin is built with [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/).
 
-### Build the plugin
 
 To build the plugin:
 

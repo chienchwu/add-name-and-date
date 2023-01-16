@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "author": "Chien-Chun Wu",
+    "figma-plugin": {
+        "editorType": [
+            "figma"
+        ],
+        "id": "1185718517702674914",
+        "name": "Add name and date",
+        "main": "src/add-name-and-date.ts",
+        "permissions": ["currentuser"]
+    },
+    "dependencies": {
+        "@create-figma-plugin/ui": "^2.1.3",
+        "@create-figma-plugin/utilities": "^2.1.3",
+        "preact": "^10"
+    },
+    "devDependencies": {
+        "@create-figma-plugin/build": "^2.1.3",
+        "@create-figma-plugin/tsconfig": "^2.1.3",
+        "@figma/plugin-typings": "1.50.0",
+        "typescript": "^4"
+    },
+    "scripts": {
+        "build": "build-figma-plugin --typecheck --minify",
+        "watch": "build-figma-plugin --typecheck --watch"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "id": "1185718517702674914",
+  "name": "Add name and date",
+  "main": "build/main.js",
+  "permissions": [
+    "currentuser"
+  ]
+}
